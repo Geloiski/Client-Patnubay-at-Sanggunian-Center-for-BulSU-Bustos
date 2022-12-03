@@ -104,6 +104,7 @@ export default function ChatWindow({ data, urlId, handleBot, bot }) {
       from: "Student",
       message: message,
       Created: serverTimestamp(),
+      unread: true
     });
     setM(false);
   };

@@ -167,7 +167,6 @@ function Register() {
               id: userCredential.user.uid,
             });
 
-         
             resetForm({
               values: {
                 fullName: "",

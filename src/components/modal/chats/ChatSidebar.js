@@ -54,6 +54,7 @@ export default function ChatSidebar({ urlId, data, handleUrlId, handleBot }) {
               bgcolor: "background.paper",
               mb: 2,
               cursor: "pointer",
+              boxShadow: 2
             }}
           >
             <Avatar src={user.users?.filter((user) => user.id === chat.id).map((user) => user.Image)} sx={{ bgcolor: "primary.main", width: { xs: 10, md: 40 }, height: { xs: 10, md: 40 } }}></Avatar>

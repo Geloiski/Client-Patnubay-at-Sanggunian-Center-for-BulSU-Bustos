@@ -73,8 +73,6 @@ function NavUser() {
 
   const buttonLogout = () => {
     auth.signOut();
-    setChats([]);
-    window.location.reload();
   };
 
     // Drawer - Menu Link
